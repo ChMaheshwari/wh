@@ -1,0 +1,158 @@
+body{
+  background-color: rgb(1, 1, 39);
+  margin: 0;
+  cursor: pointer;
+}
+.logo{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 70px;
+  width: 100%;
+}
+.logo img{
+  height: 70px;
+  width: 70px;
+  float: right;
+}
+.logo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 16px;
+  margin-right: 700px;
+  margin-left: 0px;
+  height: 40px;
+}
+.mode ul{
+  list-style-type: none;
+  text-align: center;
+  padding-top: 9px;
+  margin-right: 30px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.logo li {
+  float: left;
+}
+
+.logo li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  margin-right: 50px;
+}
+
+.logo li a:hover {
+  color: grey;
+}
+.dropbtn {
+  color: white;
+  border: none;
+  padding:16px;
+  margin-right: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {color:grey}
+
+.dropdown:hover .dropdown-content {display: block;margin-top: 26px;background-color: rgb(5, 5, 58);}
+
+.dropdown:hover .dropbtn {color:grey;}
+.semi { 
+  position: absolute; 
+  top: 60%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  height: 400px; 
+  width: 800px; 
+  border-radius: 380px 380px 0 0; 
+  background-color: rgb(168, 124, 2); 
+} 
+
+.cs1 img{
+  height: 80px;
+  width: 80px;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.fa{
+  padding: 8px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.fa-home:hover{
+  color: red;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 18px;
+  margin-left: 8px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left: 8px;
+}
+.fa-instagram {
+  background:rgb(189, 2, 42);
+  color: white;
+  margin-left: 8px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .logo, .mode, .dropdown, .dropdown-content,.semi,.cs,.fa {
+    width: 100%;
+  }
+}
+
+
+
+  
+
+
